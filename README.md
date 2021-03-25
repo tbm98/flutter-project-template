@@ -1,4 +1,4 @@
-# flutter project template
+# flutter project template [![Build](https://github.com/tbm98/flutter-project-template/actions/workflows/dart.yml/badge.svg)](https://github.com/tbm98/flutter-project-template/actions/workflows/dart.yml)
 
 A new Flutter project template.
 
