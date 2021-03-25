@@ -1,16 +1,27 @@
-# flutter_project_template
+# flutter project template
 
-A new Flutter project.
+A new Flutter project template.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### First
+- remove `android` and `ios` folder and run `flutter create .`
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Project structure
+* `lib`
+  * `src`
+    * `config` (your config, constant ...)
+    * `models` (define all your models here)
+    * `providers` (define all providers here)
+    * `router` (route config, onGenerateRoute...)
+    * `screens` (all screens here)
+      * `home`
+      * `login`
+      * `ect`
+    * `services` (all your services)
+    * `utils` (all common helpful function here)
+    * `widgets` (all common widgets here)
+  * main.dart (main function)
+* `scripts` (run by: `./scripts/name.sh`)
+  * `generate_code.sh` (use for regenerate code)
+  * `prepare_for_commit.sh` (use for check commit will be safe)

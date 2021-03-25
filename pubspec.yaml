@@ -29,10 +29,26 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # for generator plugin
+  freezed_annotation: ^0.14.1
+  json_annotation: ^4.0.1
+
+  # for networking
+  dio: ^4.0.0-beta7
+
+  # for state management
+  flutter_riverpod: ^0.13.1+1
+
+  # for di
+  get_it: ^6.0.0
+  injectable: ^1.2.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  build_runner: ^1.12.2
+  freezed: ^0.14.1+1
+  json_serializable: ^4.1.0
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
