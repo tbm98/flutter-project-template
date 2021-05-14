@@ -7,3 +7,7 @@ class StringUtils {
     return value.trim();
   }
 }
+
+bool nullOrEmpty(String? value) {
+  return value == null || value.isEmpty;
+}
