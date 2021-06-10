@@ -26,4 +26,3 @@ A new Flutter project template.
   * `generate_code.sh` (use for regenerate code)
   * `prepare_for_commit.sh` (use for check commit will be safe)
 
-temp line ;)
